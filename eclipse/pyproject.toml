@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "butterfly_diff"
+version = "0.1.0"
+description = "A script to analyze pairs of timelapse images to highlight butterflies using different visualization techniques."
+authors = ["Your Name <youremail@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = "^0.12.3"
+rich = "^13.7.1"
+opencv-python = "^4.9.0.80"
+pydantic = "<2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
